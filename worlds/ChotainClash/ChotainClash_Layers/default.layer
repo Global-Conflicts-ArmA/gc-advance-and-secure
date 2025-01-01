@@ -1,0 +1,117 @@
+SCR_BaseGameMode GameMode_CaptureAndHold1 : "{26758D3CAD920EF2}Prefabs/MP/Modes/CaptureAndHold/GameMode_CaptureAndHold.et" {
+ components {
+  GC_AdvanceAndSecureManager "{644313872F45B33D}" {
+   m_factionOrders {
+    GC_AASOrder "{644313872943FEFF}" {
+     m_faction "US"
+     m_order {
+      "ObjA" "ObjB" "ObjC"
+     }
+    }
+    GC_AASOrder "{6443138721CA8962}" {
+     m_faction "USSR"
+     m_order {
+      "ObjC" "ObjB" "ObjA"
+     }
+    }
+   }
+  }
+  SCR_CaptureAndHoldManager "{5918D676431D9060}" {
+   m_bUseCustomTime 1
+   m_fCustomTimeOfTheDay 6.5
+   m_bPersistentAreaFactions 1
+  }
+  SCR_ScoringSystemComponent "{56B6E8B5672C8335}" {
+   m_aActions {
+    EndGameAction "{56B6E8B55072E456}" {
+     m_iScoreLimit 1250
+    }
+   }
+  }
+ }
+ coords 7856.669 0 6447.06
+}
+SCR_FactionManager FactionManager_USxUSSR1 : "{589540B35EBA8CDC}Prefabs/MP/Managers/Factions/FactionManager_USxUSSR.et" {
+ coords 7827.014 0 6293.794
+}
+$grp SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ USSR_BASE_SPAWN {
+  coords 7561.052 166.844 4316.913
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "USSR HQ"
+  }
+ }
+ USSR_LARUNS_SPAWN {
+  coords 7549.793 82.781 5465.121
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "Laruns (USSR)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ USSR_LEVIE_SPAWN {
+  coords 7513.041 143.457 4650.842
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "Levie (USSR)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+}
+$grp SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ US_BASE_SPAWN {
+  coords 6711.279 145.998 6363.036
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "US HQ"
+  }
+ }
+ US_CHOTAIN_SPAWN {
+  coords 6996.682 121.771 6056.12
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "Chotain (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ US_LARUNS_SPAWN {
+  coords 7527.421 80.844 5609.675
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "Laruns (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+}
+SCR_LoadoutManager : "{97EF4C1A41F63DDB}Prefabs/MP/Managers/Loadouts/LoadoutManager_USxUSSR.et" {
+ coords 7840.194 0 6224.119
+}
+$grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSecure/Areas/AdvanceAndSecureArea_Major.et" {
+ ObjA {
+  coords 7069.488 118.391 6019.57
+  TriggerShapeType Sphere
+  SphereRadius 80
+  DrawShape 0
+  m_fTickRate 10
+  m_spawnPoints {
+   "US_CHOTAIN_SPAWN"
+  }
+ }
+ ObjB {
+  coords 7571.1 80.687 5542.966
+  TriggerShapeType Sphere
+  SphereRadius 80
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_B"
+  m_fTickRate 10
+  m_spawnPoints {
+   "US_LARUNS_SPAWN" "USSR_LARUNS_SPAWN"
+  }
+ }
+ ObjC {
+  coords 7488.176 137.476 4720.636
+  TriggerShapeType Sphere
+  SphereRadius 80
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_C"
+  m_fTickRate 10
+  m_spawnPoints {
+   "USSR_LEVIE_SPAWN"
+  }
+ }
+}

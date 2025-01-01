@@ -1,0 +1,22 @@
+GameProject {
+ ID "GCAdvanceAndSecure"
+ GUID "633C076C75566FF7"
+ TITLE "GC Advance and Secure"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
