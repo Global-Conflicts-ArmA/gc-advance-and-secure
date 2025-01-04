@@ -1,3 +1,4 @@
 GC_AdvanceAndSecureArea : "{6980800459376F27}Prefabs/MP/Modes/CaptureAndHold/Areas/CaptureAndHoldArea_Base.et" {
  ID "560477320F726547"
+ m_fTickRate 10
 }
