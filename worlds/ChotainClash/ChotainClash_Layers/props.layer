@@ -1,0 +1,60 @@
+$grp GenericEntity : "{87588E4A1561C4D1}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_round_high_plastic.et" {
+ {
+  coords 7308.005 119.045 5736.696
+  angleX -2.091
+  angleY 137.956
+  angleZ -4.681
+ }
+ {
+  coords 7307.391 119.164 5740.749
+  angleX -1.976
+  angleY 23.024
+  angleZ 6.117
+ }
+}
+GenericEntity : "{942D2F8391C376D8}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_MG_US_01_M60.et" {
+ coords 7295.853 119.52 5724.885
+ angleY -150.312
+ {
+  GenericEntity {
+   ID "570CFD7584B8E353"
+   coords 1.534 -0.79 -0.739
+  }
+  GenericEntity {
+   ID "570CFD7584B8ECDD"
+   coords -1.711 -0.711 -0.535
+  }
+ }
+}
+GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
+ coords 7379.387 120.728 5205.133
+ angleX 0.047
+ angleY 20.038
+ angleZ 0.69
+}
+StaticModelEntity : "{D3193994599FC52D}Prefabs/Structures/Military/Camps/TentUS_01/TentUS_01_Assembled_camonet.et" {
+ coords 7302.668 119.439 5737.95
+ angleX 1.499
+ angleY -99.314
+ angleZ -1.419
+}
+GenericEntity : "{D6DE8E5230DA293F}PrefabsEditable/Auto/Structures/Military/CamoNets/US/E_CamoNet_Small_Top_US.et" {
+ coords 7296.513 119.66 5725.321
+ angleY -33.848
+}
+$grp StaticModelEntity : "{F3A7C84173BF2D1E}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Bunker_Camouflaged_US_01.et" {
+ {
+  coords 7306.877 119.23 5747.548
+  angleY -4.889
+ }
+ {
+  coords 7334.917 119.699 5723.307
+  angleY 101.548
+  {
+   GenericEntity {
+    ID "5A532DCEC8597177"
+    coords 0 0.1 0
+   }
+  }
+ }
+}

@@ -1,0 +1,80 @@
+$grp SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ USSR_BASE_SPAWN {
+  coords 7561.052 166.844 4316.913
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "USSR HQ"
+  }
+ }
+ USSR_E {
+  coords 7485.485 137.916 4728.174
+  angleY 8.074
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "E (USSR)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ USSR_D {
+  coords 7379.537 122.76 5171.931
+  angleY 8.074
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "D (USSR)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ USSR_C {
+  coords 7562.329 82.781 5456.74
+  angleY -17.675
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "C (USSR)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ USSR_B {
+  coords 7305.842 119.102 5722.231
+  angleY -17.675
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "B (USSR)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+}
+$grp SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ US_BASE_SPAWN {
+  coords 6711.279 145.998 6363.036
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "US HQ"
+  }
+ }
+ US_A {
+  coords 7102.294 118.352 6002.301
+  angleY 134.447
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "A (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ US_B {
+  coords 7301.156 117.462 5753.393
+  angleY 125.704
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "B (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ US_C {
+  coords 7527.761 81.168 5609.633
+  angleY 156.058
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "C (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ US_D {
+  coords 7361.338 122.26 5199.991
+  angleY 126.83
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "D (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+}
