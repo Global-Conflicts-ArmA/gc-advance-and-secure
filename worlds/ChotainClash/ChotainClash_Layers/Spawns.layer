@@ -1,6 +1,7 @@
 $grp SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
  USSR_BASE_SPAWN {
   coords 7561.052 166.844 4316.913
+  angleY -70.396
   m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
    Name "USSR HQ"
   }
@@ -40,7 +41,8 @@ $grp SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et"
 }
 $grp SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
  US_BASE_SPAWN {
-  coords 6711.279 145.998 6363.036
+  coords 6711.279 146.602 6363.035
+  angleY 99.086
   m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
    Name "US HQ"
   }

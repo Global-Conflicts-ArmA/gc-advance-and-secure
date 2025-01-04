@@ -491,4 +491,86 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Are
    }
   }
  }
+ Area13 {
+  coords 6791.001 138.512 6387.95
+  angleX 0.705
+  angleY -5.765
+  angleZ 3.245
+  {
+   GenericEntity Layer13 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity Slot13 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{644895E16863A693}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{644895E16ADCF0F9}" {
+            m_iDelayInSeconds 150
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{644895E160BF5553}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{644895E1617E99D0}" {
+               m_sLayerBaseName "Layer13"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et"
+       }
+      }
+      coords -0.038 0.036 -0.08
+      angleX 2.71
+      angleY 113.398
+      angleZ 0.72
+     }
+    }
+   }
+  }
+ }
+ Area14 {
+  coords 7578.421 166.356 4246.271
+  angleX 0.487
+  angleY 170.397
+  angleZ 1.326
+  {
+   GenericEntity Layer14 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity Slot14 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{644895E16863A693}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{644895E16ADCF0F9}" {
+            m_iDelayInSeconds 150
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{644895E160BF5553}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{644895E1617E99D0}" {
+               m_sLayerBaseName "Layer14"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et"
+       }
+      }
+      coords 1.5 0.058 0.093
+      angleX 6.718
+      angleY 117.103
+      angleZ 0.895
+     }
+    }
+   }
+  }
+ }
 }
