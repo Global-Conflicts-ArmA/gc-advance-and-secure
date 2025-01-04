@@ -1,14 +1,14 @@
-SCR_BaseGameMode GameMode_CaptureAndHold1 : "{26758D3CAD920EF2}Prefabs/MP/Modes/CaptureAndHold/GameMode_CaptureAndHold.et" {
+SCR_BaseGameMode GameMode_CaptureAndHold1 : "{54E0B2C1E01D1DBE}Prefabs/MP/Modes/AdvanceAndSecure/GameMode_AdvanceAndSecure.et" {
  components {
-  GC_AdvanceAndSecureManager "{644313872F45B33D}" {
+  GC_AdvanceAndSecureManager "{644895E6D4D7E212}" {
    m_factionOrders {
-    GC_AASOrder "{644313872943FEFF}" {
+    GC_AASOrder "{644895FB654F4B79}" {
      m_faction "US"
      m_order {
       "A" "B" "C" "D" "E"
      }
     }
-    GC_AASOrder "{6443138721CA8962}" {
+    GC_AASOrder "{644895FB6554B1C9}" {
      m_faction "USSR"
      m_order {
       "E" "D" "C" "B" "A"
@@ -19,7 +19,6 @@ SCR_BaseGameMode GameMode_CaptureAndHold1 : "{26758D3CAD920EF2}Prefabs/MP/Modes/
   SCR_CaptureAndHoldManager "{5918D676431D9060}" {
    m_bUseCustomTime 1
    m_fCustomTimeOfTheDay 6.5
-   m_bPersistentAreaFactions 1
   }
   SCR_ScoringSystemComponent "{56B6E8B5672C8335}" {
    m_aActions {

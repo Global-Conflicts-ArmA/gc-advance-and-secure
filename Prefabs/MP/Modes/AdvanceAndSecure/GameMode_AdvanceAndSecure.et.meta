@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{54E0B2C1E01D1DBE}Prefabs/MP/Modes/CaptureAndHold/GameMode_AdvanceAndSecure.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
