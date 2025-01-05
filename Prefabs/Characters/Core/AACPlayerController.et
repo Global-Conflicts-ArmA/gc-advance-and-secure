@@ -1,0 +1,12 @@
+SCR_PlayerController : "{BB8EC6521FAD0623}Prefabs/Characters/Core/CaptureAndHoldPlayerController.et" {
+ ID "1A9BA6BEFA06E3B1"
+ components {
+  SCR_HUDManagerComponent "{2FDC275D9EBCDB8B}" {
+   InfoDisplays {
+    SCR_CaptureAndHoldTeamScoreDisplay "{5946E329A8D8281E}" {
+     m_bIsEnabled 0
+    }
+   }
+  }
+ }
+}

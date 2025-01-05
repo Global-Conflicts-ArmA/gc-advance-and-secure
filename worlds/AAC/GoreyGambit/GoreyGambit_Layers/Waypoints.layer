@@ -1,0 +1,83 @@
+$grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" {
+ Patrol1Wp1 {
+  coords 4949.487 127.292 7849.132
+ }
+ Patrol1Wp2 {
+  coords 4905.948 125.888 7941.105
+ }
+ Patrol1Wp3 {
+  coords 4958.802 115.86 8049.776
+ }
+ Patrol1Wp4 {
+  coords 5055.03 106.64 8043.215
+ }
+ Patrol2Wp1 {
+  coords 4775.539 124.809 8057.11
+ }
+ Patrol2Wp2 {
+  coords 4804.703 124.08 7979.471
+ }
+ Patrol2Wp3 {
+  coords 4707.3 128.228 7929.602
+ }
+ Patrol2Wp4 {
+  coords 4652.633 121.986 7955.612
+ }
+ Patrol3Wp1 {
+  coords 4691.662 90.85 8444.976
+ }
+ Patrol3Wp2 {
+  coords 4662.784 101.417 8314.891
+ }
+ Patrol3Wp3 {
+  coords 4784.486 101.807 8312.221
+ }
+ Patrol3Wp4 {
+  coords 4783.125 98.989 8364.184
+ }
+}
+$grp AIWaypointCycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
+ Patrol1Cycle {
+  coords 5061.114 106.334 8036.589
+  CycleWaypoints {
+   "Patrol1Wp1" "Patrol1Wp2" "Patrol1Wp3" "Patrol1Wp4" "Patrol1Cycle"
+  }
+ }
+ Patrol2Cycle {
+  coords 4649.705 121.957 7960.442
+  CycleWaypoints {
+   "Patrol2Wp1" "Patrol2Wp2" "Patrol2Wp3" "Patrol2Wp4" "Patrol2Cycle"
+  }
+ }
+ Patrol3Cycle {
+  coords 4776.486 98.695 8365.598
+  CycleWaypoints {
+   "Patrol3Wp1" "Patrol3Wp2" "Patrol3Wp3" "Patrol3Wp4" "Patrol3Cycle"
+  }
+ }
+}
+$grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ ADefWp {
+  coords 5078.451 141.187 7723.555
+  m_fPriorityLevel 2
+ }
+ BDefWp {
+  coords 4871.323 128.798 7845.402
+  m_fPriorityLevel 2
+ }
+ CDefWp {
+  coords 4846.603 112.103 8087.656
+  CompletionRadius 50
+  m_fPriorityLevel 2
+ }
+ DDefWp {
+  coords 4638.226 118.627 8170.982
+  CompletionRadius 40
+  m_fPriorityLevel 2
+ }
+ EDefWp {
+  coords 4624.799 97.494 8333.361
+  CompletionRadius 40
+  m_fPriorityLevel 2
+ }
+}

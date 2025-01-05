@@ -1,0 +1,65 @@
+$grp SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
+ ADefSqd {
+  coords 5075.288 141.075 7722.844
+  m_aUnitPrefabSlots + {
+   "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "ADefWp"
+  }
+ }
+ BDefSqd {
+  coords 4871.644 128.936 7843.341
+  m_aUnitPrefabSlots + {
+   "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "BDefWp"
+  }
+ }
+ CDefSqd {
+  coords 4844.363 112.238 8094.251
+  m_aUnitPrefabSlots + {
+   "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "CDefWp"
+  }
+ }
+ DDefSqd {
+  coords 4638.482 118.318 8173.95
+  m_aUnitPrefabSlots + {
+   "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "DDefWp"
+  }
+ }
+ EDefSqd {
+  coords 4627.86 98.133 8330.492
+  m_aUnitPrefabSlots + {
+   "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "EDefWp"
+  }
+ }
+ Patrol1 {
+  coords 5067.257 99.848 8062.505
+  m_aStaticWaypoints {
+   "Patrol1Wp1" "Patrol1Wp2" "Patrol1Wp3" "Patrol1Wp4" "Patrol1Cycle"
+  }
+ }
+ Patrol2 {
+  coords 4651.306 121.896 7956.713
+  m_aStaticWaypoints {
+   "Patrol2Wp1" "Patrol2Wp2" "Patrol2Wp3" "Patrol2Wp4" "Patrol2Cycle"
+  }
+ }
+ Patrol3 {
+  coords 4785.415 99.001 8364.688
+  m_aStaticWaypoints {
+   "Patrol3Wp1" "Patrol3Wp2" "Patrol3Wp3" "Patrol3Wp4" "Patrol3Cycle"
+  }
+ }
+}

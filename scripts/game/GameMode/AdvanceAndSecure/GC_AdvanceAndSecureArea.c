@@ -39,7 +39,7 @@ class GC_AdvanceAndSecureArea : SCR_CaptureAndHoldArea
 				// iterate through the entries in the faction objective order
 				// check if the areas are owned in order, returning when either
 				// false or the current area is found
-				for (int n = 0; i < factionOrders[i].m_order.Count(); ++n)
+				for (int n = 0; n < factionOrders[i].m_order.Count(); ++n)
 				{
 					// loop reached this area, so it's cappable
 					if (factionOrders[i].m_order[n] == GetName())
@@ -100,5 +100,33 @@ class GC_AdvanceAndSecureArea : SCR_CaptureAndHoldArea
 		}
 
 		return owningFaction;
+	}
+	
+	//------------------------------------------------------------------------------------------------
+	//! Occurs on change of owning faction of the area.
+	//! \param previousFaction Faction which held the point prior to this change or null if none.
+	//! \param newFaction Faction that holds the point after this change or null if none.
+	protected override void OnOwningFactionChanged(Faction previousFaction, Faction newFaction)
+	{
+		super.OnOwningFactionChanged(previousFaction, newFaction);
+
+		SCR_BaseGameMode gameMode = SCR_BaseGameMode.Cast(GetGame().GetGameMode());
+		if (!gameMode)
+			return;
+		if (!gameMode.IsRunning())
+			return;
+
+		GC_AdvanceAndSecureManager parentManager = GC_AdvanceAndSecureManager.Cast(gameMode.FindComponent(GC_AdvanceAndSecureManager));
+		if (!parentManager)
+		{
+			return;
+		}
+
+		if (parentManager.AASOrdersComplete(newFaction))
+		{
+			int factionIndex = GetGame().GetFactionManager().GetFactionIndex(newFaction);
+			SCR_GameModeEndData endData = SCR_GameModeEndData.CreateSimple(EGameOverTypes.ENDREASON_SCORELIMIT, winnerFactionId: factionIndex);
+			gameMode.EndGameMode(endData);
+		}
 	}
 }

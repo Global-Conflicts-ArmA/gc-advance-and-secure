@@ -1,0 +1,41 @@
+SCR_BaseGameMode : "{26758D3CAD920EF2}Prefabs/MP/Modes/CaptureAndHold/GameMode_CaptureAndHold.et" {
+ ID "56B2B479C6B96951"
+ components {
+  GC_AdvanceAndSecureManager "{644ADAF798AA6F90}" {
+  }
+  SCR_CaptureAndHoldManager "{5918D676431D9060}" {
+   m_bPersistentAreaFactions 1
+  }
+  SCR_GroupsManagerComponent "{5706EC99934496F5}" {
+   m_sDefaultGroupPrefab "{D417A48F68973F0C}Prefabs/Groups/AdvanceAndSecure_PlayableGroup.et"
+  }
+  SCR_ScoringSystemComponent "{56B6E8B5672C8335}" {
+   Enabled 0
+   m_aActions {
+    EndGameAction "{56B6E8B55072E456}" {
+     m_iScoreLimit 1500
+    }
+   }
+  }
+  SCR_WelcomeScreenComponent "{5D34CBCAF837769A}" {
+   m_sHeaderTitle "Advance & Secure"
+   m_BaseLayout SCR_WelcomeScreenThreeHorizontalColumns "{5D34CBCBB2A8004F}" {
+    m_MiddleColumn SCR_WelcomeScreenMissionObjectivesContent "{5D34CBCBC5B3CD98}" {
+     m_sTitleText "Advance and Secure"
+     m_aMissionObjectives {
+      SCR_WelcomeScreenMissionObjectives "{5D34CBCBEAD4DAC9}" {
+       m_sDescription "Move out and capture objectives. Each objective must be captured in order."
+      }
+      SCR_WelcomeScreenMissionObjectives "{5D34CBCB0824582E}" {
+       m_sDescription "Control objectives to score points and spawn on them, closer to the frontline."
+      }
+      SCR_WelcomeScreenMissionObjectives "{5D34CBCB025D7A42}" {
+       m_sDescription "Reach the score limit before your opponent to win the game."
+      }
+     }
+    }
+   }
+  }
+ }
+ PlayerControllerPrefab "{DF0C2F3DE790DE95}Prefabs/Characters/Core/AACPlayerController.et"
+}

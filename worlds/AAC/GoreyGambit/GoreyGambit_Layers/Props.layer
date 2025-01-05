@@ -1,0 +1,111 @@
+$grp GenericEntity : "{25B265F3E7CBDFC8}Prefabs/Props/Wrecks/BMP1_wreck.et" {
+ {
+  coords 4864.677 127.814 7854.238
+  angleY 88.316
+  angleZ -2.79
+ }
+ {
+  coords 4856.115 128.47 7843.385
+  angleX -2.109
+  angleY 23.717
+ }
+}
+$grp GenericEntity : "{2B24356C351A2538}Prefabs/Props/Wrecks/M113_wreck.et" {
+ {
+  coords 4645.115 115.562 8200.293
+  angleX -4.642
+  angleY 20.124
+  angleZ -1.698
+ }
+ {
+  coords 4634.542 119.59 8160.445
+  angleX -6.193
+  angleY -24.202
+  angleZ 0.281
+ }
+ {
+  coords 4641.596 120.559 8146.818
+  angleX -3.217
+  angleY 35.234
+  angleZ -1.764
+ }
+}
+GenericEntity : "{3386EAA823BE462E}Prefabs/Props/Wrecks/UAZ469_wreck_static.et" {
+ coords 4883.645 127.917 7851.854
+ angleY 113.717
+ angleZ -3.637
+}
+GenericEntity : "{388B774519BD6294}Prefabs/Props/Wrecks/T62_wreck.et" {
+ coords 4872.9 129.483 7832.676
+}
+GenericEntity : "{654B33C808C4D93E}Prefabs/Props/Wrecks/M151A2_wreck_static.et" {
+ coords 4641.421 118.337 8171.462
+ angleX -3.908
+ angleY 47.418
+}
+GenericEntity : "{6BE5C753730DBFED}Prefabs/Props/Wrecks/M923A1_wreck_static.et" {
+ coords 4639.732 117.11 8185.545
+ angleX -5.037
+}
+GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
+ coords 4617.872 94.977 8347.252
+ angleX -10.035
+ angleY -22.191
+ angleZ -1.236
+ {
+  StaticModelEntity {
+   ID "5CC6B4BB10618F59"
+   coords 3.841 -0.122 -2.623
+  }
+  StaticModelEntity {
+   ID "5CC6B4BB10618F70"
+   coords 4.317 -0.102 4.453
+  }
+ }
+}
+GenericEntity : "{942D2F8391C376D8}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_MG_US_01_M60.et" {
+ coords 5062.812 136.676 7750.029
+ angleY -46.159
+}
+GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
+ coords 4628.31 99.198 8323.854
+ angleX 9.239
+ angleY 161.566
+ angleZ 0.297
+ {
+  StaticModelEntity {
+   ID "5CC72E06418CFEA6"
+   coords 0.291 -0.024 -5.977
+  }
+  StaticModelEntity {
+   ID "5CC72E06418CFEB0"
+   coords -6.148 -0.025 -6.318
+  }
+ }
+}
+GenericEntity : "{AE300E34EA8FF40C}Prefabs/Props/Wrecks/Ural4320_wreck_static.et" {
+ coords 4864.74 129.898 7821.197
+ angleX -6.548
+ angleY 0.093
+ angleZ -0.256
+}
+GenericEntity : "{D0315073F7B22594}PrefabsEditable/Auto/Structures/Military/CamoNets/US/E_CamoNet_Small_US.et" {
+ coords 5064.346 136.794 7748.376
+ angleX -9.268
+ angleY -42.768
+}
+GenericEntity : "{E87F2E0B5C56A1C3}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Bunker_S_US_01.et" {
+ coords 5065.813 139.759 7723.545
+ angleX -14.099
+ angleY -65.818
+}
+$grp StaticModelEntity : "{F3A7C84173BF2D1E}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Bunker_Camouflaged_US_01.et" {
+ {
+  coords 5070.182 142.314 7705.827
+  angleY -163.716
+ }
+ {
+  coords 5117.862 130.062 7794.841
+  angleY -9.828
+ }
+}

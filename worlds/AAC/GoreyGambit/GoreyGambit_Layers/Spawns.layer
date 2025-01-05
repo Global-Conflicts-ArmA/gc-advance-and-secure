@@ -1,0 +1,49 @@
+$grp SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ US_HQ {
+  coords 5308.632 104.248 7706.619
+  angleY -80.136
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "US Rally Point"
+  }
+ }
+ US_A {
+  coords 5085.844 140.267 7731.854
+  angleY -80.136
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "A (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ US_B {
+  coords 4873.169 129.712 7827.407
+  angleY -80.136
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "B (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ US_C {
+  coords 4843.795 116.727 8052.844
+  angleY 127.349
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "C (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ US_D {
+  coords 4655.689 122.142 8152.416
+  angleY 30.045
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "D (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ US_E {
+  coords 4623.686 97.424 8336.248
+  angleY -10.525
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "E (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+}
