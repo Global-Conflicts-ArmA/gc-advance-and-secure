@@ -1,0 +1,4 @@
+SCR_AIGroup : "{92F9879EA0B03967}Prefabs/Groups/CaptureAndHold_PlayableGroup.et" {
+ ID "56FC873F6D4EEACC"
+ m_iMaxMembers 6
+}
