@@ -1,0 +1,20 @@
+SCR_BaseGameMode : "{54E0B2C1E01D1DBE}Prefabs/MP/Modes/AdvanceAndSecure/GameMode_AdvanceAndSecure.et" {
+ ID "56B2B479C6B96951"
+ components {
+  GC_AdvanceAndSecureManager "{644895E6D4D7E212}" {
+   Enabled 0
+  }
+  SCR_WelcomeScreenComponent "{5D34CBCAF837769A}" {
+   m_BaseLayout SCR_WelcomeScreenThreeHorizontalColumns "{5D34CBCBB2A8004F}" {
+    m_MiddleColumn SCR_WelcomeScreenMissionObjectivesContent "{5D34CBCBC5B3CD98}" {
+     m_sTitleText "Conquest"
+     m_aMissionObjectives {
+      SCR_WelcomeScreenMissionObjectives "{5D34CBCBEAD4DAC9}" {
+       m_sDescription "Move out and capture objectives."
+      }
+     }
+    }
+   }
+  }
+ }
+}

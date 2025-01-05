@@ -1,0 +1,46 @@
+SCR_BaseGameMode GameMode_AdvanceAndSecure1 : "{54E0B2C1E01D1DBE}Prefabs/MP/Modes/AdvanceAndSecure/GameMode_AdvanceAndSecure.et" {
+ components {
+  GC_AdvanceAndSecureManager "{644895E6D4D7E212}" {
+   m_factionOrders {
+    GC_AASOrder "{6448B892ADC9D784}" {
+     m_faction "US"
+     m_order {
+      "A" "B" "C" "D" "E"
+     }
+    }
+    GC_AASOrder "{6448B892ADDC3813}" {
+     m_faction "FIA"
+     m_order {
+      "E" "D" "C" "B" "A"
+     }
+    }
+   }
+  }
+  SCR_CaptureAndHoldManager "{5918D676431D9060}" {
+   m_bUseCustomWeather 1
+   m_sCustomWeatherId "Clear"
+   m_bUseCustomTime 1
+   m_fCustomTimeOfTheDay 20.5
+  }
+  SCR_ScoringSystemComponent "{56B6E8B5672C8335}" {
+   m_aActions {
+    EndGameAction "{56B6E8B55072E456}" {
+     m_iScoreLimit 2000
+    }
+   }
+  }
+ }
+ coords 10729.876 0 835.336
+}
+SCR_FactionManager FactionManager_Base1 : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ coords 10877.468 0 857.294
+ Factions {
+  SCR_Faction "{6448B8904269A9F2}" : "{5EB46557DF2AA24F}Configs/Factions/US.conf" {
+  }
+  SCR_Faction "{6448B8905EE30259}" : "{8053DB656DD18B14}Configs/Factions/FIA.conf" {
+  }
+ }
+}
+SCR_LoadoutManager : "{133751BF0E9010D2}Prefabs/MP/Managers/LoadoutManager_USxFIA.et" {
+ coords 10877.744 0 818.888
+}

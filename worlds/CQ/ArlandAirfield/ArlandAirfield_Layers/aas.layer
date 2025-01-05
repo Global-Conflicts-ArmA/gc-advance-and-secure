@@ -1,0 +1,121 @@
+SCR_FactionManager FactionManager_USxUSSR1 : "{589540B35EBA8CDC}Prefabs/MP/Managers/Factions/FactionManager_USxUSSR.et" {
+ coords 1567.141 0 3870.219
+ Factions {
+  SCR_Faction "{56B2B46E999BF3BF}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0EE815FA292}" {
+     m_aEntityEntryList {
+      SCR_EntityCatalogEntry "{6448F3CA6C00F977}" {
+       m_sEntityPrefab "{55B8B35C5694AA21}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Scout.et"
+      }
+     }
+    }
+    SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{5C68AD59AB9FBDDC}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{6448F3CA40618DEA}" {
+         m_sEntityPrefab "{83CE659F2C763F28}Prefabs/Weapons/Rifles/M16/Variants/Rifle_M16A2_carbine_suppressor_OliveGreen_Sand_Stripes.et"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  SCR_Faction "{56B2B46E9AF80999}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C68A0E9BD5E5DD9}" {
+     m_aEntityEntryList {
+      SCR_EntityCatalogEntry "{6448F3C987F52C3F}" {
+       m_sEntityPrefab "{D0BA62919E2824B7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_Scout.et"
+       m_aEntityDataList {
+        SCR_EntityCatalogEditorData "{6116BA71E82AF0D0}" {
+         m_eValidEditorModes 33
+        }
+        SCR_EntityCatalogSpawnerData "{6116BA71E9137EF0}" {
+         m_eSlotTypes GROUP_SMALL
+        }
+       }
+      }
+     }
+    }
+    SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{5C68AD5F14BDB1A7}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{6448F3CA52D7E5D8}" {
+         m_sEntityPrefab "{43D001A8797EA5C9}Prefabs/Weapons/Rifles/AK74/Variants/Rifle_AK74N_PBS4.et"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+SCR_BaseGameMode GameMode_AdvanceAndSecure1 : "{8CB3AFF385FEED04}Prefabs/MP/Modes/Conquest/GameMode_Conquest.et" {
+ components {
+  SCR_CaptureAndHoldManager "{5918D676431D9060}" {
+   m_bUseCustomWeather 1
+   m_sCustomWeatherId "Clear"
+   m_bUseCustomTime 1
+   m_fCustomTimeOfTheDay 0
+  }
+ }
+ coords 1622.557 0 3856.653
+}
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ coords 1652.984 0 3891.335
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{6448F3CE1FB8E61C}" {
+   m_sLoadoutName "#AR-Role_Scout"
+   m_sLoadoutResource "{55B8B35C5694AA21}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Scout.et"
+   m_sLoadoutImage "{F99BAD6979D4472A}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF.edds"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{6448F3CF7D967445}" {
+   m_sLoadoutName "#AR-Role_Machinegunner"
+   m_sLoadoutResource "{6E1E87ECA5F5A7EA}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_LMG.et"
+   m_sLoadoutImage "{589163E956B88CD3}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_LMG.edds"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{6448F3CF4D5251EC}" {
+   m_sLoadoutName "#AR-Role_Grenadier"
+   m_sLoadoutResource "{C110498284A5418F}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_GL.et"
+   m_sLoadoutImage "{11E3141951F5389D}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_GL.edds"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{6448F3CF431E0407}" {
+   m_sLoadoutName "#AR-Role_Sharpshooter"
+   m_sLoadoutResource "{ADC2DE949F566202}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Sharpshooter.et"
+   m_sLoadoutImage "{32789E1FC599E126}UI/Textures/EditorPreviews/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Sharpshooter.edds"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{6448F3CF56047F03}" {
+   m_sLoadoutName "#AR-Role_Scout"
+   m_sLoadoutResource "{D0BA62919E2824B7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_Scout.et"
+   m_sLoadoutImage "{07AFA73ABD09518D}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF.edds"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_FactionPlayerLoadout "{6448F3CF2BCC75C4}" {
+   m_sLoadoutName "#AR-Role_Machinegunner"
+   m_sLoadoutResource "{0B8AC0C3C447F90E}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_LMG.et"
+   m_sLoadoutImage "{DD93B2249E040245}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_LMG.edds"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_FactionPlayerLoadout "{6448F3CF3F93FBA3}" {
+   m_sLoadoutName "#AR-Role_Grenadier"
+   m_sLoadoutResource "{B823C229EC3981B7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_GL.et"
+   m_sLoadoutImage "{A6B489E02505E85E}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_GL.edds"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_FactionPlayerLoadout "{6448F3CF32982B70}" {
+   m_sLoadoutName "#AR-Role_Sharpshooter"
+   m_sLoadoutResource "{ADB43E67E3766CE7}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_Sharpshooter.et"
+   m_sLoadoutImage "{9D9A7CDDDED2FF57}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_Sharpshooter.edds"
+   m_sAffiliatedFaction "USSR"
+  }
+ }
+}

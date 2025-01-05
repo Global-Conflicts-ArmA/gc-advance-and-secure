@@ -1,0 +1,576 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ Area1 {
+  coords 6836.251 135.915 6371.755
+  angleX 0.705
+  angleY -5.765
+  angleZ 3.245
+  {
+   GenericEntity Layer1 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity Slot1 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{644895E16863A693}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{644895E16ADCF0F9}" {
+            m_iDelayInSeconds 90
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{644895E160BF5553}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{644895E1617E99D0}" {
+               m_sLayerBaseName "Layer1"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et"
+       }
+      }
+      coords 0 0 0
+      angleX -3.476
+      angleY 117.507
+      angleZ -4.085
+     }
+    }
+   }
+  }
+ }
+ Area2 {
+  coords 6832 136.334 6366.876
+  angleX 0.705
+  angleY -5.765
+  angleZ 3.245
+  {
+   GenericEntity Layer2 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity Slot2 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{644895E16863A693}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{644895E16ADCF0F9}" {
+            m_iDelayInSeconds 90
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{644895E160BF5553}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{644895E1617E99D0}" {
+               m_sLayerBaseName "Layer2"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et"
+       }
+      }
+      coords 0 0 0
+      angleX -3.476
+      angleY 117.507
+      angleZ -4.085
+     }
+    }
+   }
+  }
+ }
+ Area3 {
+  coords 6835.366 135.486 6378.022
+  angleX 0.705
+  angleY -5.765
+  angleZ 3.245
+  {
+   GenericEntity Layer3 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity Slot3 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{644895E16863A693}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{644895E16ADCF0F9}" {
+            m_iDelayInSeconds 90
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{644895E160BF5553}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{644895E1617E99D0}" {
+               m_sLayerBaseName "Layer3"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et"
+       }
+      }
+      coords 0 0 0
+      angleX -3.476
+      angleY 117.507
+      angleZ -4.085
+     }
+    }
+   }
+  }
+ }
+ Area4 {
+  coords 6819.255 136.208 6382.232
+  angleX 0.705
+  angleY -5.765
+  angleZ 3.245
+  {
+   GenericEntity Layer4 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity Slot4 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{644895E16863A693}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{644895E16ADCF0F9}" {
+            m_iDelayInSeconds 90
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{644895E160BF5553}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{644895E1617E99D0}" {
+               m_sLayerBaseName "Layer4"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et"
+       }
+      }
+      coords 0 0 0
+      angleX -2.168
+      angleY 117.414
+      angleZ -4.081
+     }
+    }
+   }
+  }
+ }
+ Area5 {
+  coords 6819.517 136.576 6376.033
+  angleX 0.705
+  angleY -5.765
+  angleZ 3.245
+  {
+   GenericEntity Layer5 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity Slot5 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{644895E16863A693}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{644895E16ADCF0F9}" {
+            m_iDelayInSeconds 90
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{644895E160BF5553}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{644895E1617E99D0}" {
+               m_sLayerBaseName "Layer5"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et"
+       }
+      }
+      coords 0 0 0
+      angleX -2.168
+      angleY 117.414
+      angleZ -4.081
+     }
+    }
+   }
+  }
+ }
+ Area6 {
+  coords 6815.108 136.946 6372.391
+  angleX 0.705
+  angleY -5.765
+  angleZ 3.245
+  {
+   GenericEntity Layer6 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity Slot6 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{644895E16863A693}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{644895E16ADCF0F9}" {
+            m_iDelayInSeconds 90
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{644895E160BF5553}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{644895E1617E99D0}" {
+               m_sLayerBaseName "Layer6"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{81FDAD5EB644CC3D}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered.et"
+       }
+      }
+      coords 0 0 0
+      angleX -2.168
+      angleY 117.414
+      angleZ -4.081
+     }
+    }
+   }
+  }
+ }
+ Area7 {
+  coords 7521.406 164.988 4375.389
+  angleX 1.233
+  angleY -15.293
+  angleZ 3.084
+  {
+   GenericEntity Layer7 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity Slot7 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{644895E16863A693}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{644895E16ADCF0F9}" {
+            m_iDelayInSeconds 90
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{644895E160BF5553}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{644895E1617E99D0}" {
+               m_sLayerBaseName "Layer7"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et"
+       }
+      }
+      coords 0 0 0
+      angleX 1.748
+      angleY 117.135
+      angleZ -4.08
+     }
+    }
+   }
+  }
+ }
+ Area8 {
+  coords 7517.69 165.133 4370.739
+  angleX 0.705
+  angleY -5.765
+  angleZ 3.245
+  {
+   GenericEntity Layer8 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity Slot8 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{644895E16863A693}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{644895E16ADCF0F9}" {
+            m_iDelayInSeconds 90
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{644895E160BF5553}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{644895E1617E99D0}" {
+               m_sLayerBaseName "Layer8"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
+       }
+      }
+      coords 0 0 0
+      angleX 2.548
+      angleY 114.187
+      angleZ -1.548
+     }
+    }
+   }
+  }
+ }
+ Area9 {
+  coords 7519.389 164.611 4382.284
+  angleX 1.006
+  angleY -11.13
+  angleZ 3.165
+  {
+   GenericEntity Layer9 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity Slot9 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{644895E16863A693}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{644895E16ADCF0F9}" {
+            m_iDelayInSeconds 90
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{644895E160BF5553}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{644895E1617E99D0}" {
+               m_sLayerBaseName "Layer9"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
+       }
+      }
+      coords 0 0 0
+      angleX 2.548
+      angleY 114.187
+      angleZ -1.548
+     }
+    }
+   }
+  }
+ }
+ Area10 {
+  coords 7510.921 163.619 4384.989
+  angleX 1.006
+  angleY -11.13
+  angleZ 0.61
+  {
+   GenericEntity Layer10 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity Slot10 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{644895E16863A693}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{644895E16ADCF0F9}" {
+            m_iDelayInSeconds 90
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{644895E160BF5553}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{644895E1617E99D0}" {
+               m_sLayerBaseName "Layer10"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et"
+       }
+      }
+      coords 0 0 0
+      angleX 2.548
+      angleY 114.187
+      angleZ -1.548
+     }
+    }
+   }
+  }
+ }
+ Area11 {
+  coords 7510.331 164.556 4377.529
+  angleX 1.006
+  angleY -11.13
+  angleZ 0.61
+  {
+   GenericEntity Layer11 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity Slot11 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{644895E16863A693}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{644895E16ADCF0F9}" {
+            m_iDelayInSeconds 90
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{644895E160BF5553}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{644895E1617E99D0}" {
+               m_sLayerBaseName "Layer11"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et"
+       }
+      }
+      coords 0 0 0
+      angleX 2.548
+      angleY 114.187
+      angleZ -1.548
+     }
+    }
+   }
+  }
+ }
+ Area12 {
+  coords 7508.5 164.621 4372.894
+  angleX 1.006
+  angleY -11.13
+  angleZ 0.61
+  {
+   GenericEntity Layer12 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity Slot12 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{644895E16863A693}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{644895E16ADCF0F9}" {
+            m_iDelayInSeconds 90
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{644895E160BF5553}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{644895E1617E99D0}" {
+               m_sLayerBaseName "Layer12"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et"
+       }
+      }
+      coords 0 0 0
+      angleX 2.548
+      angleY 114.187
+      angleZ -1.548
+     }
+    }
+   }
+  }
+ }
+ Area13 {
+  coords 6791.001 138.512 6387.95
+  angleX 0.705
+  angleY -5.765
+  angleZ 3.245
+  {
+   GenericEntity Layer13 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity Slot13 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{644895E16863A693}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{644895E16ADCF0F9}" {
+            m_iDelayInSeconds 150
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{644895E160BF5553}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{644895E1617E99D0}" {
+               m_sLayerBaseName "Layer13"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{DDDD9B51F1234DF3}Prefabs/Vehicles/Helicopters/UH1H/UH1H_armed.et"
+       }
+      }
+      coords -0.038 0.036 -0.08
+      angleX 2.71
+      angleY 113.398
+      angleZ 0.72
+     }
+    }
+   }
+  }
+ }
+ Area14 {
+  coords 7578.421 166.356 4246.271
+  angleX 0.487
+  angleY 170.397
+  angleZ 1.326
+  {
+   GenericEntity Layer14 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords 0 0 0
+    {
+     GenericEntity Slot14 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_aPlugins {
+         SCR_ScenarioFrameworkPluginOnDestroyEvent "{644895E16863A693}" {
+          m_aActionsOnDestroy {
+           SCR_ScenarioFrameworkActionWaitAndExecute "{644895E16ADCF0F9}" {
+            m_iDelayInSeconds 150
+            m_aActions {
+             SCR_ScenarioFrameworkActionRestoreLayerToDefault "{644895E160BF5553}" {
+              m_Getter SCR_ScenarioFrameworkGetLayerBase "{644895E1617E99D0}" {
+               m_sLayerBaseName "Layer14"
+              }
+              m_bReinitAfterRestoration 1
+             }
+            }
+           }
+          }
+         }
+        }
+        m_sObjectToSpawn "{7BD282AF716ED639}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_armed.et"
+       }
+      }
+      coords 1.5 0.058 0.093
+      angleX 6.718
+      angleY 117.103
+      angleZ 0.895
+     }
+    }
+   }
+  }
+ }
+}

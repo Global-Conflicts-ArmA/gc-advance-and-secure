@@ -1,0 +1,82 @@
+$grp SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ USSR_HQ {
+  coords 4764.59 90.691 8524.07
+  angleY -155.46
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "USSR Rally Point"
+  }
+ }
+ USSR_E {
+  coords 4620.392 95.358 8348.524
+  angleY 153.293
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "E (USSR)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ USSR_D {
+  coords 4636.177 117.991 8181.748
+  angleY 133.539
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "D (USSR)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ USSR_C {
+  coords 4842.742 114.471 8117.577
+  angleY 130.7
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "C (USSR)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ USSR_B {
+  coords 4860.625 127.963 7857.218
+  angleY 132.619
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "B (USSR)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+}
+$grp SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ US_HQ {
+  coords 5308.632 104.248 7706.619
+  angleY -80.136
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "US Rally Point"
+  }
+ }
+ US_A {
+  coords 5085.844 140.267 7731.854
+  angleY -80.136
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "A (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ US_B {
+  coords 4873.169 129.712 7827.407
+  angleY -80.136
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "B (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ US_C {
+  coords 4843.795 116.727 8052.844
+  angleY 127.349
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "C (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ US_D {
+  coords 4655.689 122.142 8152.416
+  angleY 30.045
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "C (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+}

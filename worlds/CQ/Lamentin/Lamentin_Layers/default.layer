@@ -1,0 +1,9 @@
+SCR_FactionManager FactionManager_USxUSSR1 : "{589540B35EBA8CDC}Prefabs/MP/Managers/Factions/FactionManager_USxUSSR.et" {
+ coords 450.294 0 5026.321
+}
+SCR_BaseGameMode GameMode_Conquest1 : "{8CB3AFF385FEED04}Prefabs/MP/Modes/Conquest/GameMode_Conquest.et" {
+ coords 407.327 -0 5071.851
+}
+SCR_LoadoutManager : "{97EF4C1A41F63DDB}Prefabs/MP/Managers/Loadouts/LoadoutManager_USxUSSR.et" {
+ coords 492.279 -0 5089.709
+}

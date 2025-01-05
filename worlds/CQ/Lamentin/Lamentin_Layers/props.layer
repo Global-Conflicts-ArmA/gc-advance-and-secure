@@ -1,0 +1,8 @@
+StaticModelEntity : "{7784DA55DC0F253C}PrefabsEditable/Auto/Structures/Military/Camps/HelipadImprovised_01/E_HelipadImprovised_US_01.et" {
+ coords 2327.75 0.231 4914.635
+ angleY -93.484
+}
+StaticModelEntity : "{C1AE5D901C3A93C6}PrefabsEditable/Auto/Structures/Military/Camps/HelipadImprovised_01/E_HelipadImprovised_USSR_01.et" {
+ coords 2318.812 1.254 6891.579
+ angleY -2.092
+}

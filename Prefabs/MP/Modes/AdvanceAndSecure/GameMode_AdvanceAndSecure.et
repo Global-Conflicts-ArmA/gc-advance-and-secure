@@ -6,6 +6,9 @@ SCR_BaseGameMode : "{26758D3CAD920EF2}Prefabs/MP/Modes/CaptureAndHold/GameMode_C
   SCR_CaptureAndHoldManager "{5918D676431D9060}" {
    m_bPersistentAreaFactions 1
   }
+  SCR_GroupsManagerComponent "{5706EC99934496F5}" {
+   m_sDefaultGroupPrefab "{D417A48F68973F0C}Prefabs/Groups/AdvanceAndSecure_PlayableGroup.et"
+  }
   SCR_ScoringSystemComponent "{56B6E8B5672C8335}" {
    m_aActions {
     EndGameAction "{56B6E8B55072E456}" {

@@ -1,0 +1,96 @@
+$grp SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ USSR_FWD {
+  coords 1972.571 71.873 5930.24
+  angleY -115.744
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "USSR Rally Point"
+  }
+ }
+ USSR_AIR {
+  coords 2363.996 46.743 6877.924
+  angleY -80.215
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "USSR Air Support"
+  }
+ }
+ USSR_B {
+  coords 1765.975 59.282 5912.03
+  angleY -73.061
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "B (USSR)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ USSR_C {
+  coords 1278.636 37.707 6032.548
+  angleY 136.283
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "C (USSR)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ USSR_D {
+  coords 1002.11 3.081 6010.536
+  angleY 4.512
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "D (USSR)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ USSR_E {
+  coords 1176.096 35.452 6303.27
+  angleY -48.306
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "E (USSR)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+}
+$grp SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ US_FWD {
+  coords 1521.162 48.551 5564.416
+  angleY 42.092
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "US Rally Point"
+  }
+ }
+ US_AIR {
+  coords 2320.216 54.931 4935.083
+  angleY -166.958
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "US Air Support"
+  }
+ }
+ US_A {
+  coords 1657.416 71.55 5742.395
+  angleY -57.692
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "A (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ US_C {
+  coords 1279.002 37.797 6032.213
+  angleY 137.242
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "C (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ US_D {
+  coords 1007.61 3.14 6009.651
+  angleY 6.891
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "D (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+ US_E {
+  coords 1175.422 35.468 6303.754
+  angleY -51.474
+  m_Info SCR_UIInfo "{56B4CC4ECACA2C37}" {
+   Name "E (US)"
+  }
+  m_bSpawnPointEnabled 0
+ }
+}

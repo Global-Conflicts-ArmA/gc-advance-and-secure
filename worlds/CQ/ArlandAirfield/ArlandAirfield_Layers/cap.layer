@@ -1,0 +1,46 @@
+$grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSecure/Areas/AdvanceAndSecureArea_Major.et" {
+ A {
+  coords 1005.815 38.26 2956.735
+  TriggerShapeType Sphere
+  SphereRadius 25
+  m_spawnPoints {
+   "US_A"
+  }
+ }
+ B {
+  coords 1365.698 37.937 2966.741
+  TriggerShapeType Sphere
+  SphereRadius 20
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_B"
+  m_spawnPoints {
+   "US_B" "USSR_B"
+  }
+ }
+ C {
+  coords 1167.122 1.321 3290.585
+  TriggerShapeType Sphere
+  SphereRadius 20
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_C"
+  m_spawnPoints {
+   "US_C" "USSR_C"
+  }
+ }
+ D {
+  coords 1624.682 44.359 3100.45
+  TriggerShapeType Sphere
+  SphereRadius 20
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_D"
+  m_spawnPoints {
+   "USSR_D"
+  }
+ }
+ E {
+  coords 1462.026 38.125 2663.765
+  TriggerShapeType Sphere
+  SphereRadius 20
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_D"
+  m_spawnPoints {
+   "USSR_E" "US_E"
+  }
+ }
+}

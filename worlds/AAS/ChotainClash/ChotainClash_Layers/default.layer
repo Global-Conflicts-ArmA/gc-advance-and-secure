@@ -1,0 +1,38 @@
+SCR_BaseGameMode GameMode_CaptureAndHold1 : "{54E0B2C1E01D1DBE}Prefabs/MP/Modes/AdvanceAndSecure/GameMode_AdvanceAndSecure.et" {
+ components {
+  GC_AdvanceAndSecureManager "{644895E6D4D7E212}" {
+   m_factionOrders {
+    GC_AASOrder "{644895FB654F4B79}" {
+     m_faction "US"
+     m_order {
+      "A" "B" "C" "D" "E"
+     }
+    }
+    GC_AASOrder "{644895FB6554B1C9}" {
+     m_faction "USSR"
+     m_order {
+      "E" "D" "C" "B" "A"
+     }
+    }
+   }
+  }
+  SCR_CaptureAndHoldManager "{5918D676431D9060}" {
+   m_bUseCustomTime 1
+   m_fCustomTimeOfTheDay 6.5
+  }
+  SCR_ScoringSystemComponent "{56B6E8B5672C8335}" {
+   m_aActions {
+    EndGameAction "{56B6E8B55072E456}" {
+     m_iScoreLimit 2000
+    }
+   }
+  }
+ }
+ coords 7856.669 0 6447.06
+}
+SCR_FactionManager FactionManager_USxUSSR1 : "{589540B35EBA8CDC}Prefabs/MP/Managers/Factions/FactionManager_USxUSSR.et" {
+ coords 7827.014 0 6293.794
+}
+SCR_LoadoutManager : "{97EF4C1A41F63DDB}Prefabs/MP/Managers/Loadouts/LoadoutManager_USxUSSR.et" {
+ coords 7840.194 0 6224.119
+}

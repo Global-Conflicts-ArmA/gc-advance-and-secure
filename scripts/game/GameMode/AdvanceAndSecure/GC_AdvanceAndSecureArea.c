@@ -27,7 +27,6 @@ class GC_AdvanceAndSecureArea : SCR_CaptureAndHoldArea
 		GC_AdvanceAndSecureManager parentManager = GC_AdvanceAndSecureManager.Cast(gameMode.FindComponent(GC_AdvanceAndSecureManager));
 		if (!parentManager)
 		{
-			Print("AdvanceAndSecureArea cannot find GC_AdvanceAndSecureManager! Can't enforce AAS order!", LogLevel.WARNING);
 			return true;
 		}
 		
