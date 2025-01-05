@@ -1,0 +1,15 @@
+SCR_FactionManager FactionManager_USxUSSR1 : "{589540B35EBA8CDC}Prefabs/MP/Managers/Factions/FactionManager_USxUSSR.et" {
+ coords 7827.014 0 6293.794
+}
+SCR_BaseGameMode GameMode_CaptureAndHold1 : "{8CB3AFF385FEED04}Prefabs/MP/Modes/Conquest/GameMode_Conquest.et" {
+ components {
+  SCR_CaptureAndHoldManager "{5918D676431D9060}" {
+   m_bUseCustomTime 1
+   m_fCustomTimeOfTheDay 6.5
+  }
+ }
+ coords 7856.669 0 6447.06
+}
+SCR_LoadoutManager : "{97EF4C1A41F63DDB}Prefabs/MP/Managers/Loadouts/LoadoutManager_USxUSSR.et" {
+ coords 7840.194 0 6224.119
+}
