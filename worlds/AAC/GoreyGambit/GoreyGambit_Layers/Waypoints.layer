@@ -56,28 +56,3 @@ $grp AIWaypointCycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.
   }
  }
 }
-$grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
- ADefWp {
-  coords 5078.451 141.187 7723.555
-  m_fPriorityLevel 2
- }
- BDefWp {
-  coords 4871.323 128.798 7845.402
-  m_fPriorityLevel 2
- }
- CDefWp {
-  coords 4846.603 112.103 8087.656
-  CompletionRadius 50
-  m_fPriorityLevel 2
- }
- DDefWp {
-  coords 4638.226 118.627 8170.982
-  CompletionRadius 40
-  m_fPriorityLevel 2
- }
- EDefWp {
-  coords 4624.799 97.494 8333.361
-  CompletionRadius 40
-  m_fPriorityLevel 2
- }
-}

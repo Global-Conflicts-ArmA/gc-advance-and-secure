@@ -1,4 +1,9 @@
 SCR_AIGroup : "{92F9879EA0B03967}Prefabs/Groups/CaptureAndHold_PlayableGroup.et" {
  ID "56FC873F6D4EEACC"
+ components {
+  AIFormationComponent "{58947973EF813917}" {
+   DefaultFormation "Wedge"
+  }
+ }
  m_iMaxMembers 6
 }

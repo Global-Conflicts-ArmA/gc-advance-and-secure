@@ -1,3 +1,7 @@
+GenericEntity : "{008F787E7BD00867}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_MG_USSR_01_NSV.et" {
+ coords 4411.129 78.788 8449.63
+ angleY 117.341
+}
 $grp GenericEntity : "{25B265F3E7CBDFC8}Prefabs/Props/Wrecks/BMP1_wreck.et" {
  {
   coords 4864.677 127.814 7854.238
@@ -37,6 +41,14 @@ GenericEntity : "{3386EAA823BE462E}Prefabs/Props/Wrecks/UAZ469_wreck_static.et" 
 }
 GenericEntity : "{388B774519BD6294}Prefabs/Props/Wrecks/T62_wreck.et" {
  coords 4872.9 129.483 7832.676
+}
+GenericEntity : "{4885DEA01D687DB3}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Bunker_S_USSR_01.et" {
+ coords 4407.729 78.431 8481.017
+ angleY 107.82
+}
+StaticModelEntity : "{4DB8D8A6096F1656}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Tent_Barrack_Cluttered_USSR_01.et" {
+ coords 4397.256 78.141 8489.566
+ angleY 119.75
 }
 GenericEntity : "{654B33C808C4D93E}Prefabs/Props/Wrecks/M151A2_wreck_static.et" {
  coords 4641.421 118.337 8171.462
@@ -93,6 +105,12 @@ GenericEntity : "{D0315073F7B22594}PrefabsEditable/Auto/Structures/Military/Camo
  coords 5064.346 136.794 7748.376
  angleX -9.268
  angleY -42.768
+}
+GenericEntity : "{E05FC6BCECA8F071}PrefabsEditable/Auto/Structures/Military/CamoNets/Soviet/E_CamoNet_Small_Soviet.et" {
+ coords 4408.754 79.199 8450.881
+ angleX -1.781
+ angleY -156.937
+ angleZ 2.698
 }
 GenericEntity : "{E87F2E0B5C56A1C3}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Bunker_S_US_01.et" {
  coords 5065.813 139.759 7723.545

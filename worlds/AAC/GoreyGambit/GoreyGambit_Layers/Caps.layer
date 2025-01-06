@@ -9,6 +9,27 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
   m_spawnPoints {
    "US_A"
   }
+  m_defenderGroups {
+   GC_AASDefenderGroup "{644CB7C3A56E067D}" {
+    m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+    m_waypoint "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_radius 20
+   }
+   GC_AASDefenderGroup "{644CB7C3BDBD5417}" {
+    m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+    m_waypoint "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+    m_radius 60
+   }
+  }
+  m_counterattacks {
+   GC_AASCounterattack "{644CC1F008274CE5}" {
+    m_factionKey "US"
+    m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+    m_locationName "ACounter"
+    m_waypoint "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et"
+    m_radius 25
+   }
+  }
  }
  B {
   coords 4875.265 129.08 7842.023
@@ -20,6 +41,27 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
   m_iScorePerTick 3
   m_spawnPoints {
    "US_B"
+  }
+  m_defenderGroups {
+   GC_AASDefenderGroup "{644CC1F34A4E0802}" {
+    m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+    m_waypoint "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_radius 20
+   }
+   GC_AASDefenderGroup "{644CC1F344AEB751}" {
+    m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+    m_waypoint "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+    m_radius 60
+   }
+  }
+  m_counterattacks {
+   GC_AASCounterattack "{644CD2CDFBCBE9E1}" {
+    m_factionKey "US"
+    m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+    m_locationName "BCounter"
+    m_waypoint "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et"
+    m_radius 20
+   }
   }
  }
  C {
@@ -33,6 +75,34 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
   m_spawnPoints {
    "US_C"
   }
+  m_defenderGroups {
+   GC_AASDefenderGroup "{644CC1F340D2DFEB}" {
+    m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+    m_waypoint "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_radius 20
+   }
+   GC_AASDefenderGroup "{644CC1F340BDE6AC}" {
+    m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+    m_waypoint "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+    m_radius 60
+   }
+  }
+  m_counterattacks {
+   GC_AASCounterattack "{644CD2CDDF4AF195}" {
+    m_factionKey "US"
+    m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+    m_locationName "CCounter"
+    m_waypoint "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et"
+    m_radius 20
+   }
+   GC_AASCounterattack "{644CD2CDAA0A1907}" {
+    m_factionKey "US"
+    m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+    m_locationName "CCounter2"
+    m_waypoint "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et"
+    m_radius 20
+   }
+  }
  }
  D {
   coords 4640.913 119.289 8159.797
@@ -45,6 +115,27 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
   m_spawnPoints {
    "US_D"
   }
+  m_defenderGroups {
+   GC_AASDefenderGroup "{644CC1F328FDE74E}" {
+    m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+    m_waypoint "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_radius 20
+   }
+   GC_AASDefenderGroup "{644CC1F328C199E2}" {
+    m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+    m_waypoint "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+    m_radius 60
+   }
+  }
+  m_counterattacks {
+   GC_AASCounterattack "{644CD2CDB13E4C61}" {
+    m_factionKey "US"
+    m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+    m_locationName "DCounter"
+    m_waypoint "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et"
+    m_radius 20
+   }
+  }
  }
  E {
   coords 4624.197 98.401 8330.652
@@ -56,6 +147,42 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
   m_iScorePerTick 3
   m_spawnPoints {
    "US_E"
+  }
+  m_defenderGroups {
+   GC_AASDefenderGroup "{644CC1F322163294}" {
+    m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+    m_waypoint "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_radius 20
+   }
+   GC_AASDefenderGroup "{644CC1F323FA4EBF}" {
+    m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+    m_waypoint "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+    m_radius 60
+   }
+  }
+ }
+ F {
+  coords 4400.069 78.36 8482.938
+  TriggerShapeType Sphere
+  SphereRadius 25
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_F"
+  m_fTickRate 10
+  m_iScorePerTick 3
+  m_spawnPoints {
+   "US_F"
+  }
+  m_defenderGroups {
+   GC_AASDefenderGroup "{644CC1F322163294}" {
+    m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+    m_waypoint "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_radius 20
+   }
+   GC_AASDefenderGroup "{644CC1F323FA4EBF}" {
+    m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+    m_waypoint "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+    m_radius 60
+   }
   }
  }
 }

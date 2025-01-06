@@ -5,11 +5,16 @@ SCR_BaseGameMode GameMode_CaptureAndHold1 : "{233229938D468D6B}Prefabs/MP/Modes/
     GC_AASOrder "{644ADAF655AB122F}" {
      m_faction "US"
      m_order {
-      "A" "B" "C" "D" "E"
+      "A" "B" "C" "D" "E" "F"
      }
      m_endGameOnAll 1
     }
    }
+  }
+  SCR_CaptureAndHoldManager "{5918D676431D9060}" {
+   m_bUseCustomWeather 1
+   m_sCustomWeatherId "Cloudy"
+   m_bUseCustomTime 1
   }
  }
  coords 5731.998 0 8720.826

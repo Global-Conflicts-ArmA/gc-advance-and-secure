@@ -3,6 +3,90 @@ class GC_AdvanceAndSecureAreaClass : SCR_CaptureAndHoldAreaClass
 {
 }
 
+[BaseContainerProps(), BaseContainerCustomTitleField("m_name")]
+class GC_AASDefenderGroup
+{
+	[Attribute("", UIWidgets.ResourceNamePicker, "Prefab to spawn", "et")]
+	ResourceName m_prefab;
+	
+	[Attribute("", UIWidgets.ResourceNamePicker, "Waypoint prefab to use", "et")]
+	ResourceName m_waypoint;
+	
+	[Attribute("", UIWidgets.Range, "Radius of defence", "et")]
+	float m_radius;
+	
+	void SpawnGroup(IEntity owner)
+	{
+		if (!Replication.IsServer()) return;
+		EntitySpawnParams spawnParams = new EntitySpawnParams();
+		vector mat[4];
+		owner.GetWorldTransform(mat);
+		spawnParams.Transform = mat;
+		IEntity spawnedEntity = GetGame().SpawnEntityPrefab(Resource.Load(m_prefab), GetGame().GetWorld(), spawnParams);
+		
+		if (m_waypoint)
+		{
+			IEntity spawnedWaypoint = GetGame().SpawnEntityPrefab(Resource.Load(m_waypoint), GetGame().GetWorld(), spawnParams);
+		
+			AIWaypoint wp = AIWaypoint.Cast(spawnedWaypoint);
+			wp.SetCompletionRadius(m_radius);
+		
+			AIGroup grp = AIGroup.Cast(spawnedEntity);
+			grp.AddWaypoint(wp);
+		}
+	}
+}
+
+[BaseContainerProps(), BaseContainerCustomTitleField("m_name")]
+class GC_AASCounterattack
+{
+	[Attribute("", UIWidgets.Auto, desc: "When the area is captured by this faction, spawn the counterattack")]
+	string m_factionKey;
+	
+	[Attribute("", UIWidgets.ResourceNamePicker, "Prefab to spawn", "et")]
+	ResourceName m_prefab;
+	
+	[Attribute("", UIWidgets.Auto, desc: "Name of existing entity at which the prefab should be spawned")]
+	string m_locationName;
+	
+	[Attribute("", UIWidgets.ResourceNamePicker, "Waypoint prefab to use", "et")]
+	ResourceName m_waypoint;
+	
+	[Attribute("", UIWidgets.Range, "Radius of defence", "et")]
+	float m_radius;
+	
+	protected bool triggered;
+	
+	void SpawnGroup(IEntity owner)
+	{
+		if (!Replication.IsServer()) return;
+		if (triggered) return;
+		IEntity e = GetGame().GetWorld().FindEntityByName(m_locationName);
+		if (!e) return;
+		
+		EntitySpawnParams groupSpawnParams = new EntitySpawnParams();
+		vector groupMat[4];
+		e.GetWorldTransform(groupMat);
+		groupSpawnParams.Transform = groupMat;
+		
+		EntitySpawnParams waypointSpawnParams = new EntitySpawnParams();
+		vector waypointMat[4];
+		owner.GetWorldTransform(waypointMat);
+		waypointSpawnParams.Transform = waypointMat;
+		
+		IEntity spawnedEntity = GetGame().SpawnEntityPrefab(Resource.Load(m_prefab), GetGame().GetWorld(), groupSpawnParams);
+		IEntity spawnedWaypoint = GetGame().SpawnEntityPrefab(Resource.Load(m_waypoint), GetGame().GetWorld(), waypointSpawnParams);
+		
+		AIWaypoint wp = AIWaypoint.Cast(spawnedWaypoint);
+		wp.SetCompletionRadius(m_radius);
+		
+		AIGroup grp = AIGroup.Cast(spawnedEntity);
+		grp.AddWaypoint(wp);
+		
+		triggered = true;
+	}
+}
+
 //! This area awards score to the faction which controls the area periodically.
 //! Area registers and unregisters from the SCR_AdvanceAndSecureManager.
 class GC_AdvanceAndSecureArea : SCR_CaptureAndHoldArea
@@ -10,6 +94,32 @@ class GC_AdvanceAndSecureArea : SCR_CaptureAndHoldArea
 	//! Spawn points related to this AAS area.
 	[Attribute("", desc: "Spawn points related to control of this area.")]
 	ref array<string> m_spawnPoints;
+	
+	//! AI Defenders related to this AAS area.
+	[Attribute("", desc: "Groups spawned to defend this area at game start.")]
+	ref array<ref GC_AASDefenderGroup> m_defenderGroups;
+	
+	//! AI Counterattacks related to this AAS area.
+	[Attribute("", desc: "Groups spawned to counterattack this area when it is captured.")]
+	ref array<ref GC_AASCounterattack> m_counterattacks;
+	
+	//------------------------------------------------------------------------------------------------
+	//! Initialize this area and register it to parent manager.
+	protected override void OnInit(IEntity owner)
+	{
+		super.OnInit(owner);
+
+		if (!GetGame().InPlayMode())
+			return;
+		
+		if (m_defenderGroups) {
+			for (int i = 0; i < m_defenderGroups.Count(); ++i)
+			{
+				m_defenderGroups[i].SpawnGroup(this);
+			}
+		}
+	}
+	
 	//------------------------------------------------------------------------------------------------
 	/*!
 		Returns control of the previous objective in the AAS order for [faction].
@@ -109,6 +219,17 @@ class GC_AdvanceAndSecureArea : SCR_CaptureAndHoldArea
 	protected override void OnOwningFactionChanged(Faction previousFaction, Faction newFaction)
 	{
 		super.OnOwningFactionChanged(previousFaction, newFaction);
+		
+		if (m_counterattacks)
+		{
+			for (int i = 0; i < m_counterattacks.Count(); ++i)
+			{
+				if (newFaction.GetFactionKey() == m_counterattacks[i].m_factionKey)
+				{
+					m_counterattacks[i].SpawnGroup(this);
+				}
+			}
+		}
 
 		SCR_BaseGameMode gameMode = SCR_BaseGameMode.Cast(GetGame().GetGameMode());
 		if (!gameMode)

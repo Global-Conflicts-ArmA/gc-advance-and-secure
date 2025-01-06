@@ -18,19 +18,19 @@ SCR_BaseGameMode : "{26758D3CAD920EF2}Prefabs/MP/Modes/CaptureAndHold/GameMode_C
    }
   }
   SCR_WelcomeScreenComponent "{5D34CBCAF837769A}" {
-   m_sHeaderTitle "Advance & Secure"
+   m_sHeaderTitle "Advance & Cooperate"
    m_BaseLayout SCR_WelcomeScreenThreeHorizontalColumns "{5D34CBCBB2A8004F}" {
     m_MiddleColumn SCR_WelcomeScreenMissionObjectivesContent "{5D34CBCBC5B3CD98}" {
-     m_sTitleText "Advance and Secure"
+     m_sTitleText "Advance and Cooperate"
      m_aMissionObjectives {
       SCR_WelcomeScreenMissionObjectives "{5D34CBCBEAD4DAC9}" {
        m_sDescription "Move out and capture objectives. Each objective must be captured in order."
       }
       SCR_WelcomeScreenMissionObjectives "{5D34CBCB0824582E}" {
-       m_sDescription "Control objectives to score points and spawn on them, closer to the frontline."
+       m_sDescription "Control objectives to spawn on them, closer to the frontline. Be wary of counterattacks."
       }
       SCR_WelcomeScreenMissionObjectives "{5D34CBCB025D7A42}" {
-       m_sDescription "Reach the score limit before your opponent to win the game."
+       m_sDescription "Work with your teammates and capture all objectives to win the game."
       }
      }
     }
