@@ -169,9 +169,6 @@ $grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSec
   m_sAreaSymbol "#AR-CAH-Area_Symbol_F"
   m_fTickRate 10
   m_iScorePerTick 3
-  m_spawnPoints {
-   "US_F"
-  }
   m_defenderGroups {
    GC_AASDefenderGroup "{644CC1F322163294}" {
     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
