@@ -126,7 +126,7 @@ class GC_AdvanceAndSecureArea : SCR_CaptureAndHoldArea
 		\param Faction The faction to return the count for
 		\return Returns bool true or false ownership of previous objective
 	*/
-	protected bool CappableByFaction(Faction faction)
+	bool CappableByFaction(Faction faction)
 	{
 		string fkey = faction.GetFactionKey();
 		
