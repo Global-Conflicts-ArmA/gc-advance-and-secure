@@ -1,0 +1,175 @@
+$grp GC_AdvanceAndSecureArea : "{FEFB65D42A904CDC}Prefabs/MP/Modes/AdvanceAndSecure/Areas/AdvanceAndSecureArea_Major.et" {
+ E {
+  coords 10288.394 7.003 1570.302
+  TriggerShapeType Sphere
+  SphereRadius 30
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_E"
+  m_fTickRate 10
+  m_spawnPoints {
+   "US_E"
+  }
+  m_defenderGroups {
+   GC_AASDefenderGroup "{64500899CEAC6FDF}" {
+    m_prefab "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et"
+    m_waypoint "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_radius 25
+   }
+  }
+ }
+ D {
+  coords 10003.163 2.496 1555.147
+  TriggerShapeType Sphere
+  SphereRadius 15
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_D"
+  m_fTickRate 10
+  m_spawnPoints {
+   "US_D"
+  }
+  m_defenderGroups {
+   GC_AASDefenderGroup "{64500899F38BFDED}" {
+    m_prefab "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et"
+    m_waypoint "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_radius 25
+   }
+  }
+  m_counterattacks {
+   GC_AASCounterattack "{64500899826B5E13}" {
+    m_factionKey "US"
+    m_prefab "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et"
+    m_locationName "E"
+    m_waypoint "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et"
+    m_radius 25
+   }
+  }
+ }
+ C {
+  coords 9683.114 22.605 1612.107
+  TriggerShapeType Sphere
+  SphereRadius 20
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_C"
+  m_fTickRate 10
+  m_spawnPoints {
+   "US_C"
+  }
+  m_defenderGroups {
+   GC_AASDefenderGroup "{64500899F95F5E58}" {
+    m_prefab "{EE92725E9B949C3D}Prefabs/Groups/INDFOR/Group_FIA_PlatoonHQ.et"
+    m_waypoint "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_radius 25
+   }
+   GC_AASDefenderGroup "{64500899F923184E}" {
+    m_prefab "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et"
+    m_waypoint "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+    m_radius 50
+   }
+  }
+  m_counterattacks {
+   GC_AASCounterattack "{64500899A6072594}" {
+    m_factionKey "US"
+    m_prefab "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et"
+    m_locationName "D"
+    m_waypoint "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et"
+    m_radius 25
+   }
+  }
+ }
+ B {
+  coords 9420.914 44.823 1636.486
+  TriggerShapeType Sphere
+  SphereRadius 32
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_B"
+  m_fTickRate 10
+  m_spawnPoints {
+   "US_B"
+  }
+  m_defenderGroups {
+   GC_AASDefenderGroup "{64500899FEFAD542}" {
+    m_prefab "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et"
+    m_waypoint "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_radius 25
+   }
+   GC_AASDefenderGroup "{64500898ECB10B09}" {
+    m_prefab "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et"
+    m_waypoint "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+    m_radius 60
+   }
+  }
+  m_counterattacks {
+   GC_AASCounterattack "{64500899D662801D}" {
+    m_factionKey "US"
+    m_prefab "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et"
+    m_locationName "C"
+    m_waypoint "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et"
+    m_radius 25
+   }
+  }
+ }
+ A {
+  coords 9227.778 58.788 1918.79
+  TriggerShapeType Sphere
+  SphereRadius 30
+  DrawShape 0
+  m_fTickRate 10
+  m_spawnPoints {
+   "US_A"
+  }
+  m_defenderGroups {
+   GC_AASDefenderGroup "{64500899EB1AE3DA}" {
+    m_prefab "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et"
+    m_waypoint "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_radius 25
+   }
+  }
+ }
+ F {
+  coords 10473.605 4.666 1610.233
+  TriggerShapeType Sphere
+  SphereRadius 30
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_F"
+  m_fTickRate 10
+  m_spawnPoints {
+   "US_F"
+  }
+  m_defenderGroups {
+   GC_AASDefenderGroup "{64500899C83497D7}" {
+    m_prefab "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et"
+    m_waypoint "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_radius 25
+   }
+  }
+  m_counterattacks {
+   GC_AASCounterattack "{64500899953414DE}" {
+    m_factionKey "US"
+    m_prefab "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et"
+    m_locationName "G"
+    m_waypoint "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et"
+    m_radius 25
+   }
+  }
+ }
+ G {
+  coords 10816.524 11.212 1522.101
+  TriggerShapeType Sphere
+  SphereRadius 30
+  DrawShape 0
+  m_sAreaSymbol "#AR-CAH-Area_Symbol_G"
+  m_fTickRate 10
+  m_defenderGroups {
+   GC_AASDefenderGroup "{64500899CA0F4B55}" {
+    m_prefab "{EE92725E9B949C3D}Prefabs/Groups/INDFOR/Group_FIA_PlatoonHQ.et"
+    m_waypoint "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_radius 25
+   }
+   GC_AASDefenderGroup "{64500899CA154711}" {
+    m_prefab "{CE41AF625D05D0F0}Prefabs/Groups/INDFOR/Group_FIA_RifleSquad.et"
+    m_waypoint "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+    m_radius 50
+   }
+  }
+ }
+}

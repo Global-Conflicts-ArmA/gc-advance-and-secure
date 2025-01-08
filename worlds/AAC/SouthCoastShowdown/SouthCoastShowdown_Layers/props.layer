@@ -1,0 +1,10 @@
+GenericEntity : "{1DF9835399B603EB}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadMedium/E_Checkpoint_M_USSR_01.et" {
+ coords 10827.809 10.861 1556.16
+ angleX 0.518
+ angleY -58.093
+}
+GenericEntity : "{612AB9E420809989}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadLarge/E_Checkpoint_L_USSR_01.et" {
+ coords 10470.605 4.727 1612.157
+ angleX 0.905
+ angleY -79.276
+}
